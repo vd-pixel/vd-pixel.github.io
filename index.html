@@ -1,7 +1,122 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* Base Styles & Dark Theme */
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        /* Header Section */
+        header {
+            background: linear-gradient(135deg, #2b2b2b, #1a1a1a);
+            padding: 100px 20px;
+            text-align: center;
+            border-bottom: 3px solid #00ffcc; /* Cool neon accent */
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            color: #b3b3b3;
+            font-size: 1.2em;
+            max-width: 600px;
+            margin: 20px auto 0;
+        }
+
+        /* Container for content */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* Projects Grid */
+        .projects-grid {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        /* Individual Project Card */
+        .card {
+            background-color: #1e1e1e;
+            border: 1px solid #333;
+            border-radius: 8px;
+            padding: 20px;
+            width: 300px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 255, 204, 0.2);
+            border-color: #00ffcc;
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: #00ffcc;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #0a0a0a;
+            color: #666;
+            margin-top: 40px;
+        }
+    </style>
+</head>
 <body>
-    <h1>😑😑😑😑😑😑</h1>
-    <p>😒</p>
+
+    <header>
+        <h1>Your Name</h1>
+        <p>Tech Enthusiast | Coder | Problem Solver</p>
+    </header>
+
+    <div class="container">
+        <h2>About Me</h2>
+        <p>Welcome to my corner of the internet. I'm passionate about building things, exploring new technologies, and pushing my limits. Here are a few things I've been working on.</p>
+
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            
+            <div class="card">
+                <h3>Project Alpha</h3>
+                <p>A cool hardware and software integration project I built from scratch.</p>
+            </div>
+
+            <div class="card">
+                <h3>Scripting Utility</h3>
+                <p>A fast, lightweight script to automate some of my daily tasks.</p>
+            </div>
+
+            <div class="card">
+                <h3>Next Big Thing</h3>
+                <p>Currently in the planning phase. Stay tuned for updates!</p>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Your Name. Built with HTML & CSS.</p>
+    </footer>
+
 </body>
 </html>
